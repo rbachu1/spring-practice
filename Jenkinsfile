@@ -11,7 +11,7 @@ pipeline{
                     branch "user*"
                     }
                 steps {
-                       echo "Considering only user related branches !!"
+                       echo "Considering only user related branches !!!"
                        }
             }
             stage('Stage 3'){
