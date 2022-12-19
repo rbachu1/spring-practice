@@ -14,5 +14,10 @@ pipeline{
                        echo "Considering only user related branches !!"
                        }
             }
+            stage('Stage 3'){
+                steps{
+                echo "Webhook added !!"
+                }
+            }
        }
   }
