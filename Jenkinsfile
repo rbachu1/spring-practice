@@ -11,9 +11,7 @@ pipeline{
                     branch "user*"
                     }
                 steps {
-                        sh '''
-                        cat README.md
-                        '''
+                       echo "Considering only user related branches !!"
                        }
             }
        }
