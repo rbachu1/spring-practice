@@ -1,4 +1,4 @@
-pipeline{
+/* pipeline{
     agent any
         stages {
             stage('Stage 1'){
@@ -21,3 +21,23 @@ pipeline{
             }
        }
   }
+*/
+
+pipeline
+
+agent any
+
+stages{
+    
+    stage('stage 1'){
+        
+        steps{
+                sh 'echo "Hello World"'
+                sh '''
+                    echo "Multiline shell steps works too"
+                    ls -lah
+                '''   
+        }    
+    }
+    
+}
