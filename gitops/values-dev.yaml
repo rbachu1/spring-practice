@@ -1,1 +1,2 @@
-image: my-image-repo:1
+image: 
+  tag: my-image-repo:1
